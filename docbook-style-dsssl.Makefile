@@ -12,7 +12,7 @@ install-bin:
 
 install-man:
 	mkdir -p $(MANDIR)/man1
-	install -m 644 -p bin/collateindex.pl.1 $(MANDIR)/man1
+	install -p bin/collateindex.pl.1 $(MANDIR)/man1
 
 install-dtd:
 	mkdir -p $(DESTDIR)/dtds/{decls,dbdsssl,html,imagelib,olink}

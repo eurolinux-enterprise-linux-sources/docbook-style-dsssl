@@ -1,6 +1,6 @@
 Name: docbook-style-dsssl
 Version: 1.79
-Release: 18%{?dist}
+Release: 16%{?dist}
 Group: Applications/Text
 
 Summary: Norman Walsh's modular stylesheets for DocBook
@@ -68,16 +68,6 @@ fi
 exit 0
 
 %changelog
-* Mon Jul 27 2015 Scientific Linux Auto Patch Process <SCIENTIFIC-LINUX-DEVEL@LISTSERV.FNAL.GOV>
-- Eliminated rpmbuild "bogus date" error due to inconsistent weekday,
-  by assuming the date is correct and changing the weekday.
-
-* Mon May 25 2015 Ondrej Vasik <ovasik@redhat.com> - 1.79-18
-- manpage should not have 755 permissions (#1061759)
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.79-17
-- Mass rebuild 2013-12-27
-
 * Mon Jul 29 2013 Ondrej Vasik <ovasik@redhat.com>  - 1.79-16
 - use DMIT (modified MIT) as a license for the
   stylesheets (#988715)
